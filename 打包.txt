@@ -1,0 +1,6 @@
+1 把绝对路径改为相对路径
+config文件中找到build中的
+assetsPublicPath: '/',
+改为assetsPublicPath: './',
+
+2 终端输入npm run build
